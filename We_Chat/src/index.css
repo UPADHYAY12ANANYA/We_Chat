@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../src/assets/bg.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    width: 90vw;
+    height: 90vh;
+    background-color: rgba(17, 25, 40, 0.75);
+    backdrop-filter: blur(19px) saturate(180%);
+    border-radius: 10px;
+    display: flex;
+}
